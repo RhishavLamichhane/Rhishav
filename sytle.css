@@ -1,0 +1,53 @@
+h1
+{
+        color: rgb(177, 26, 26);
+}
+h2
+{
+        color: rgb(8, 95, 95);
+}
+h3
+{
+        color: lightblue;
+}
+h4
+{
+        color: lightgreen;
+}
+h5
+{
+        color: lightslategrey;
+}
+h6
+{
+        color: rgb(7, 7, 97);
+}
+
+
+p
+{
+        color: rgb(8, 145, 99);
+        font-size: 20px;
+}
+
+li
+{
+        color: rgb(98, 209, 24);
+}
+
+body
+{
+        color: cadetblue;
+        background-color: rgba(45, 8, 87, 0.986);
+        font-size: 20px;
+}
+input
+{
+        color: rgb(11, 95, 56);
+        border-radius: 5px;
+}
+a
+{
+        text-decoration: none;
+        color: aqua;
+}

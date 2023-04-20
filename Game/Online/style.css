@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body
+{
+        background: rgba(0,0,0,0.8)url(https://external-preview.redd.it/sE0hV3Uv1HO_sUtL9JWe1iqJNm7m4T0RtZ3vQQuBilA.jpg?auto=webp&s=da6a6333d3273ddbea5692e473bdac7cdcbd7e28);
+        background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+nav {
+        background-color: rgb(12, 11, 11);
+        padding: 0px;
+        border-radius: 5px;
+        font-family: 'Signika', sans-serif;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        justify-content:space-between;
+        margin: 0 auto;
+      
+      }
+      nav .logo
+      {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0 10px;
+      }
+      nav .logo h1
+      {
+        display: flex;
+        padding: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: aqua;
+      }
+      nav .logo i
+      {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+      nav .logo h1 a
+      {
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: aqua;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      nav ul li {
+        position: relative;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      
+      nav ul li:hover a {
+        color: #0085a1;
+      }
+      
+      nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      nav ul li:hover ul {
+        display: block;
+      }
+      
+      nav ul li ul li {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      
+      nav ul li ul li a {
+        padding: 5px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: none;
+        letter-spacing: normal;
+      }
+      
+      nav ul li ul li a:hover {
+        color: #0085a1;
+      }
+
+      .main
+      {
+              width: 80%;
+              align-items: center;
+              color: white;
+              top: 20%;
+              line-height: 50px;
+              justify-content: center;
+      }
+       h1
+      {
+              text-align: center;
+              font-size: 60px;
+              color: aqua;
+              font-family: 1000;
+              font-family: 'Aboreto', cursive;
+      }
+      .img img
+      {
+        float: none;
+        width: 350px;
+        border-radius: 5px;
+      }
+      .main h1:hover
+      {
+        color: white;
+        cursor: pointer;
+      }
+      .main p
+      {
+              text-align: justify;
+              font-size: 28px;
+              font-family: alkatra;
+      }
+      .main img
+      {
+              width: 250px;
+              float: right;
+              margin-left: 20px;
+              border-radius: 5px;
+      }
+      .main img:hover
+      {
+              width: 260px;
+              background: rgba(0,0,0,0.7);
+      }
+      .main a
+      {
+        text-decoration: none;
+        color: aqua;
+      }
+      .main a:hover
+      {
+        color: rgb(5, 255, 76);
+      }
+
+      /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: aqua;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}

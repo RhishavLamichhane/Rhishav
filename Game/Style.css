@@ -4,7 +4,7 @@
 
 body
 {
-        background: rgba(0,0,0,0.7)url(hell.jpg);
+        background: rgba(0,0,0,0.7)url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -155,4 +155,14 @@ nav {
         width: 260px;
         background: rgba(0,0,0,0.7);
         mix-blend-mode: darken;
+}
+.sign
+{
+  background-color: #0085a1;
+  border-radius: 5px;
+}
+.sign:hover
+{
+  background-color: rgb(17, 217, 217);
+  color: black;
 }

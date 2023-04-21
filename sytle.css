@@ -143,7 +143,6 @@ button
         border-radius: 5px;
         outline: none;
         border: none;
-        width: 200px;
         height: 60px;
 }
 a{
@@ -161,6 +160,7 @@ a{
 .b1
 {
         background-color: rgb(13, 111, 111);
+        width: 200px;
 }
 .b1:hover
 {
@@ -180,6 +180,7 @@ a{
 .b2
 {
         background-color: rgb(13, 111, 111);
+        width: 200px;
 }
 .b2:hover
 {
@@ -198,8 +199,27 @@ a{
 .b3
 {
         background-color: rgb(13, 111, 111);
+        width: 200px;
 }
 .b3:hover
 {
         background-color: black;
+}
+.b4
+{
+        width: 400px;
+        height: 80px;
+        background-color: rgb(23, 109, 109);
+        color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+}
+
+.b4:hover
+{
+        color: white;
+        background-color: black;
+        cursor: pointer;
 }

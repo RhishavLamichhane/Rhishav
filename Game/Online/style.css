@@ -195,3 +195,13 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   background: white;
 }
+.sign
+{
+  background-color: #0085a1;
+  border-radius: 5px;
+}
+.sign:hover
+{
+  background-color: rgb(17, 217, 217);
+  color: black;
+}

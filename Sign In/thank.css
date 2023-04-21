@@ -22,6 +22,8 @@ body
         background-color: rgb(40, 36, 36);
         width: 55%;
         height: 50%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 50px 5px rgba(242, 236, 236, 0.69);
 }
 .main2
 {

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body
+{
+        background: rgba(0,0,0,0.7)url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.main
+{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        color: white;
+        background-color: rgb(40, 36, 36);
+        width: 55%;
+        height: 50%;
+}
+.main2
+{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 55%;
+}
+.main h1
+{
+        font-size: 75px;
+        font-family: 'Tilt Prism', cursive;
+}
+.main h2
+{
+        font-size: 35px;
+        font-family: 'Acme', sans-serif;
+}
+
+.main h3
+{
+        font-size: 40px;
+}
+
+.b1 a
+{
+        color: rgb(255, 255, 255);
+}
+.b1 a:hover
+{
+        color: aqua;
+}
+.b1
+{
+        background-color: rgb(13, 111, 111);
+        width: 200px;
+}
+.b1:hover
+{
+        background-color: black;
+}
+button
+{
+        font-size: 45px;
+        margin: 20px;
+        border-radius: 5px;
+        outline: none;
+        font-family: 'Acme', sans-serif;
+        border: none;
+        height: 60px;
+        letter-spacing: 2px;
+}
+a{
+        color:white;
+        font-weight: 1000;
+        text-decoration: none;
+}

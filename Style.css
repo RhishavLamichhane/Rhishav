@@ -152,8 +152,6 @@ nav {
 .main img:hover
 {
         width: 260px;
-        background: rgba(0,0,0,0.7);
-        mix-blend-mode: darken;
 }
 .sign
 {

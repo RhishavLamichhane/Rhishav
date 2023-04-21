@@ -158,7 +158,7 @@ span{
 }
 
 .images{
-    width: 45%;
+    width: 55%;
     height: 80%;
     position: absolute;
     bottom: 0;
@@ -166,7 +166,7 @@ span{
 }
 
 .images img{
-    height: 100%;
+    height: 120%;
     position: absolute;
     left: 50%;
     bottom: 0;
